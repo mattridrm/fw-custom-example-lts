@@ -9,7 +9,7 @@ on:
     inputs:
       lts:
         description: 'LTS Build'
-        required: true
+        required: false
 jobs:
   build-firmware:
     runs-on: ubuntu-latest
