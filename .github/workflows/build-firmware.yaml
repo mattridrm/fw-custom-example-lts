@@ -6,7 +6,10 @@ on:
   push:
   #  pull_request:
   workflow_dispatch:
-
+    inputs:
+      lts:
+        description: 'LTS Build'
+        required: false
 jobs:
   build-firmware:
     runs-on: ubuntu-latest
