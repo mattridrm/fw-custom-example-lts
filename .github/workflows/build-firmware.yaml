@@ -10,6 +10,7 @@ on:
       lts:
         description: 'LTS Build'
         required: false
+        type: boolean
 jobs:
   build-firmware:
     runs-on: ubuntu-latest
